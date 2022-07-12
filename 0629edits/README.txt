@@ -1,7 +1,25 @@
-•  title and purpose of the application
-Appointment Application to schedule appointments for customers
-•  author, contact information, student application version, and date
-Keagan Farniok KFarniok@wgu.egu Version 1 06/25/2022
+Competencies:
+Database and File Server Applications
+
+The graduate produces database and file server applications using advanced Java programming language constructs to meet business requirements.
+
+Lambda
+
+The graduate incorporates lambda expressions in application development to meet business requirements more efficiently.
+
+Collections
+
+The graduate incorporates streams and filters in application development to manipulate data more efficiently.
+
+Localization API and Date/Time API
+
+The graduate applies the localization API and date/time API in application development to support end-users in various geographical regions.
+
+Advanced Exception Control
+
+The graduate incorporates advanced exception control mechanisms in application development for improving user experience and application stability.
+
+
 •  IDE including version number
 IntelliJ Community 2020.01
 Java SE 17.0.1
