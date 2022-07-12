@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="505.0" prefWidth="829.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ReportsController">
+   <children>
+      <Button layoutX="100.0" layoutY="380.0" mnemonicParsing="false" onAction="#OnARefresh" text="Refresh" />
+      <Button layoutX="696.0" layoutY="456.0" mnemonicParsing="false" onAction="#OnAReturntoMain" text="Return to Main" />
+      <TextArea fx:id="TArea" layoutX="276.0" layoutY="15.0" prefHeight="433.0" prefWidth="530.0" />
+      <Button layoutX="38.0" layoutY="105.0" mnemonicParsing="false" onAction="#OnATypeAndMonth" text="Appointment by Type and Month" />
+      <Label layoutX="102.0" layoutY="42.0" text="Reports">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="57.0" layoutY="172.0" mnemonicParsing="false" onAction="#ScheduleForContact" text="Schedule For Each Contact" />
+      <Button layoutX="59.0" layoutY="240.0" mnemonicParsing="false" onAction="#TotalNumberApptsinUS" text="US Customers. MUST ADD US CUST" />
+   </children>
+</AnchorPane>

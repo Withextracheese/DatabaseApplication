@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainController">
+   <children>
+      <Label layoutX="147.0" layoutY="57.0" text="Scheduling Desktop Application">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <VBox alignment="TOP_CENTER" layoutX="149.0" layoutY="122.0" prefHeight="200.0" prefWidth="268.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#OnAAddCustScreen" text="Add Customer">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OnAModCustScreen" text="Modify Customer">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OnAAddApptScreen" text="Add Appointment">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OnAModApptScreen" text="Modify Appointment">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OnAModApptScreenforCal" text="View Full Calendar">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OnAReportScreen" text="Reports">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#OnAExitProgram" prefHeight="26.0" prefWidth="35.0" text="Exit" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
